@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import {Link, NavLink, useLocation } from "react-router-dom";
-import "./nav.scss";
+import "./Nav.scss";
 import logocrop1 from "../assets/logo/logocrop1.png";
 
 const Navbar = ({ openForm }) => {

@@ -1,0 +1,112 @@
+.blog-page {
+
+//   .blog-hero {
+//     height: 60vh;
+//     background: url("../../assets/blog-bg.jpg") center/cover no-repeat;
+//     position: relative;
+
+//     .overlay {
+//       position: absolute;
+//       width: 100%;
+//       height: 100%;
+//       background: rgba(0,0,0,0.6);
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//       flex-direction: column;
+
+//       h1 {
+//         color: #fff;
+
+//         span {
+//           color: red;
+//         }
+//       }
+
+//       p {
+//         color: #ccc;
+//       }
+//     }
+//   }
+
+.blog-intro{
+    padding: 40px 20px;
+    text-align: center;
+
+    h2 {
+      color: #000;
+      margin-bottom: 15px;
+    }
+
+    p {
+      color: #0000007e;
+      font-size: 14px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  }
+
+  .blog-list {
+    padding: 50px 20px;
+    background: #0f0f0f;
+
+    .blog-container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 20px;
+    }
+
+    .blog-card {
+      background: #1a1a1a;
+      border-radius: 12px;
+      overflow: hidden;
+      transition: 0.3s;
+
+      &:hover {
+        transform: translateY(-5px);
+        border: 1px solid red;
+      }
+    }
+
+    .blog-img {
+      height: 180px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .blog-content {
+      padding: 15px;
+
+      h3 {
+        color: #fff;
+        margin-bottom: 8px;
+      }
+
+      p {
+        color: #bbb;
+        font-size: 13px;
+        margin-bottom: 10px;
+      }
+
+      a {
+        background: red;
+        color: #fff;
+        border: none;
+        padding: 8px 16px;
+        cursor: pointer;
+      }
+    }
+
+    /* IMAGES */
+    .blog1 { background-image: url("../../assets/blog/ai.avif"); }
+    .blog2 { background-image: url("../../assets/blog/hp.avif"); }
+    .blog3 { background-image: url("../../assets/blog/seoaeo.png"); }
+    .blog4 { background-image: url("../../assets/blog4.jpg"); }
+    .blog5 { background-image: url("../../assets/blog5.jpg"); }
+    .blog6 { background-image: url("../../assets/blog6.jpg"); }
+    .blog7 { background-image: url("../../assets/blog7.jpg"); }
+    .blog8 { background-image: url("../../assets/blog8.jpg"); }
+    .blog9 { background-image: url("../../assets/blog9.jpg"); }
+    .blog10 { background-image: url("../../assets/blog10.jpg"); }
+  }
+}

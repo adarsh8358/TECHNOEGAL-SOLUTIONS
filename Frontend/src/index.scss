@@ -1,0 +1,223 @@
+// ===============================
+// 🎨 COLOR PALETTE
+// ===============================
+
+$primary-color: #E50914;       // Main Red
+$primary-hover: #C40812;       // Darker Red
+$accent-color: #FF3B3B;        // Highlight Red
+
+$black: #111111;               // Deep Black
+$dark-gray: #333333;
+$gray: #555555;
+$light-gray: #F8F9FA;
+$border-color: #E5E5E5;
+
+$white: #FFFFFF;
+
+// ===============================
+// ✍️ TYPOGRAPHY
+// ===============================
+
+$font-primary: 'Poppins', sans-serif;
+$font-secondary: 'Inter', sans-serif;
+
+$text-heading: $black;
+$text-body: $gray;
+$text-light: $white;
+
+// ===============================
+// 📏 SPACING
+// ===============================
+
+$section-padding: 80px 0;
+$container-width: 1200px;
+
+// ===============================
+// 🌈 SHADOWS
+// ===============================
+
+$shadow-light: 0 4px 20px rgba(0, 0, 0, 0.05);
+$shadow-medium: 0 6px 30px rgba(0, 0, 0, 0.1);
+
+// ===============================
+// 🔄 TRANSITIONS
+// ===============================
+
+$transition: all 0.3s ease;
+
+// @import './variables';
+
+$font-primary: 'Poppins', sans-serif;
+$font-secondary: 'Inter', sans-serif;
+
+// ===============================
+// RESET
+// ===============================
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  // font-family: $font-primary;
+  background-color: $white;
+  color: $text-body;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  // font-family: $font-secondary;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  // font-family: $font-primary; // bold premium headings
+  // font-family: 'Poppins', sans-serif;
+}
+
+// ===============================
+// CONTAINER
+// ===============================
+
+.container {
+  // max-width: $container-width;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+// Scroll Container for custom scrolling
+.scroll-container {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+// ===============================
+// HEADINGS
+// ===============================
+
+h1, h2, h3, h4, h5, h6 {
+  color: $text-heading;
+  font-weight: 600;
+}
+
+h1 { font-size: 48px; }
+h2 { font-size: 36px; }
+h3 { font-size: 28px; }
+
+// ===============================
+// BUTTONS (CTA)
+// ===============================
+
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: $transition;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+
+  &--primary {
+    background-color: $primary-color;
+    color: $white;
+
+    &:hover {
+      background-color: $primary-hover;
+    }
+  }
+
+  &--outline {
+    border: 2px solid $primary-color;
+    color: $primary-color;
+    background: transparent;
+
+    &:hover {
+      background: $primary-color;
+      color: $white;
+    }
+  }
+}
+
+// ===============================
+// SECTION
+// ===============================
+
+.section {
+  padding: $section-padding;
+
+  &--light {
+    background-color: $light-gray;
+  }
+
+  &--dark {
+    background-color: $black;
+    color: $white;
+
+    h1, h2, h3 {
+      color: $white;
+    }
+  }
+}
+
+// ===============================
+// CARDS
+// ===============================
+
+.card {
+  background: $white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: $shadow-light;
+  transition: $transition;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: $shadow-medium;
+  }
+}
+
+// ===============================
+// LINKS
+// ===============================
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// ===============================
+// UTILITY CLASSES
+// ===============================
+
+.text-center {
+  text-align: center;
+}
+
+.text-red {
+  color: $primary-color;
+}
+
+.bg-red {
+  background-color: $primary-color;
+  color: $white;
+}
+
+.scroll-container {
+  min-height: 100vh;
+  // overflow-y: auto;   /* ✅ ensures scrolling happens here */
+}
+

@@ -1,0 +1,46 @@
+@media (min-width: 768px) {
+
+    .contact-page {
+
+        .contact-hero {
+            height: 70vh;
+
+            .overlay {
+
+                h1 {
+                    font-size: 3rem;
+                    margin-top: -20rem;
+                }
+            }
+        }
+
+        .contact-section {
+            padding: 100px 80px;
+
+            .section-heading {
+                font-size: 36px;
+                margin-bottom: 50px;
+            }
+
+            .contact-container {
+                flex-direction: row;
+                justify-content: space-between;
+                gap: 40px;
+            }
+
+            .contact-info {
+                width: 40%;
+            }
+
+            .contact-form {
+                width: 55%;
+            }
+
+            .map-container {
+                iframe {
+                    height: 350px;
+                }
+            }
+        }
+    }
+}

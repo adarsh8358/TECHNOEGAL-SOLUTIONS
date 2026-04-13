@@ -1,0 +1,36 @@
+@media (min-width: 768px) {
+
+  .about-page {
+
+    .about-hero {
+      height: 70vh;
+
+      .overlay {
+
+        h1 {
+          font-size: 3rem;
+          margin-top: -25rem;
+        }
+      }
+    }
+
+    .about-main {
+      padding: 100px 80px;
+
+      .about-container {
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+      }
+
+      .about-left,
+      .about-right {
+        width: 50%;
+      }
+
+      .about-right .about-image {
+        height: 300px;
+      }
+    }
+  }
+}

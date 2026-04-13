@@ -1,0 +1,99 @@
+.about-page {
+
+  /* HERO */
+  .about-hero {
+    height: 60vh;
+    background: url("../../assets/about/about.png") center/cover no-repeat;
+    position: relative;
+
+    .overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.6);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      h1 {
+        color: #fff;
+        font-size: 2.2rem;
+        margin-top: -18rem;
+
+        span {
+          color: red;
+        }
+      }
+
+      p {
+        color: #ccc;
+        font-size: 0.9rem;
+        max-width: 500px;
+        text-align: center;
+        max-width: 90%;
+      }
+    }
+  }
+
+  /* INTRO */
+  .about-intro {
+    background: #fff;
+    padding: 40px 20px;
+    text-align: center;
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+      font-size: 0.9rem;
+    }
+  }
+
+  /* MAIN ABOUT */
+  .about-main {
+    padding: 50px 20px;
+    background: #0f0f0f;
+    color: #fff;
+
+    .about-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .about-left {
+      h3 {
+        margin-bottom: 10px;
+        color: whitesmoke;
+      }
+
+      p {
+        color: #bbb;
+      }
+
+      button {
+        margin-top: 10px;
+        padding: 10px 20px;
+        background: red;
+        color: #fff;
+        border: none;
+      }
+    }
+
+    .about-right {
+      .about-image {
+        height: 200px;
+        background: url("../../assets/about/aboutsec.png") center/cover no-repeat;
+        margin-bottom: 10px;
+        border-radius: 0.8rem;
+      }
+
+      p {
+        color: #bbb;
+      }
+    }
+  }
+}

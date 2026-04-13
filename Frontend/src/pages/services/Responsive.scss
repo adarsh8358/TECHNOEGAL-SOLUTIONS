@@ -1,0 +1,179 @@
+@media (min-width: 768px) {
+
+  .service-page {
+
+    .service-hero {
+      height: 70vh;
+
+      .overlay {
+        h1 {
+          font-size: 3rem;
+          margin-top: -15rem;
+        }
+
+        p {
+          font-size: 1.1rem;
+        }
+      }
+    }
+
+    .service-intro {
+      min-height: 30vh;
+      padding: 60px 80px;
+
+      .intro-content {
+        h2 {
+          font-size: 2.2rem;
+        }
+
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .service-section {
+      padding: 100px 80px;
+
+      .section-heading {
+        font-size: 36px;
+        margin-bottom: 50px;
+      }
+
+      .service-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+      }
+
+      .service-card {
+        width: 30%;
+        text-align: left;
+        padding: 30px;
+
+        h3 {
+          font-size: 22px;
+        }
+
+        p {
+          font-size: 15px;
+        }
+      }
+    }
+
+    .industry-section {
+      padding: 100px 80px;
+
+      .section-heading {
+        font-size: 36px;
+        margin-bottom: 50px;
+      }
+
+      .industry-container {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 30px;
+      }
+
+      .industry-card {
+        max-width: 200px;
+
+        h3 {
+          font-size: 18px;
+        }
+
+        p {
+          font-size: 13px;
+        }
+      }
+
+      .industry-img {
+        width: 60px;
+        height: 60px;
+      }
+    }
+
+    .why-section {
+      padding: 100px 80px;
+
+      .why-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+      }
+
+      .why-card {
+        width: 22%;
+        text-align: left;
+        padding: 30px;
+
+        h3 {
+          font-size: 22px;
+        }
+
+        p {
+          font-size: 15px;
+        }
+      }
+    }
+
+    .mvv-section {
+      padding: 100px 80px;
+
+      .mvv-container {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 30px;
+      }
+
+      .mvv-box {
+        width: 32%;
+        text-align: left;
+        padding: 30px;
+
+        h3 {
+          font-size: 24px;
+        }
+
+        p {
+          font-size: 15px;
+        }
+      }
+    }
+
+    .faq-section {
+      padding: 100px 80px;
+
+      .section-heading {
+        font-size: 36px;
+        margin-bottom: 50px;
+      }
+
+      .faq-container {
+        gap: 20px;
+      }
+
+      .faq-item {
+        padding: 25px;
+
+        h3 {
+          font-size: 18px;
+        }
+
+        p {
+          font-size: 15px;
+        }
+      }
+
+      .faq-cta {
+        margin-top: 50px;
+
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+
+  }
+}

@@ -9,10 +9,42 @@ import client4 from '../../assets/client/client4.jpg'
 import client5 from '../../assets/client/client5.png'
 // import clientcs from '../../assets/client/clientcs.jpg'
 import WhatsAppButton from '../../components/WhatsAppButton'
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
     return (
         <>
+
+            <Helmet>
+                <title>
+                    Technoegal Solutions Pvt Ltd | SEO, Web Development & Digital Marketing
+                </title>
+
+                <meta
+                    name="description"
+                    content="Technoegal Solutions Pvt Ltd provides SEO, PPC, Website Development, Social Media Marketing and Performance Marketing services."
+                />
+
+                <meta
+                    name="keywords"
+                    content="SEO company Bhopal, Digital Marketing Agency, Website Development, PPC services, Social Media Marketing"
+                />
+
+                <meta
+                    property="og:title"
+                    content="Technoegal Solutions Pvt Ltd"
+                />
+
+                <meta
+                    property="og:description"
+                    content="Grow your business with SEO, PPC and web development services."
+                />
+
+                <meta
+                    property="og:type"
+                    content="website"
+                />
+            </Helmet>
 
             <WhatsAppButton />
 
@@ -608,7 +640,7 @@ const Home = () => {
                                     rel="noopener noreferrer"
                                 >
                                     24, 1st Floor, Maple High Street<br />
-                                    Narmadapuram Road, Bhopal,<br/> Madhya Pradesh, India - 462026
+                                    Narmadapuram Road, Bhopal,<br /> Madhya Pradesh, India - 462026
                                 </a>
                             </div>
 

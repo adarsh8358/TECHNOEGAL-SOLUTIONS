@@ -8,7 +8,8 @@
     .hero-section {
         width: 100%;
         min-height: 100vh;
-        background-image: url("../../assets/landing/landingtest4.png");
+        background-image: url("../../assets/landing/landing.webp");
+        // background-image: url("../../assets/landing/landing4.png");
         background-size: cover;
         background-position: 90% 50%;
         position: relative;
@@ -130,7 +131,8 @@
             .about-image {
                 width: 100%;
                 height: 200px;
-                background: url("../../assets/about/aboutsec.png") center/cover no-repeat;
+                background: url("../../assets/about/aboutsec.WEBP") center/cover no-repeat;
+                // background: url("../../assets/about/aboutsec.png") center/cover no-repeat;
             }
 
             .about-text {

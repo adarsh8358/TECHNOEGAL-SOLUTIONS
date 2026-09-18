@@ -47,7 +47,7 @@ const About = () => {
               <p>
                 We specialize in SEO, PPC, social media marketing, and website development. Our team focuses on data-driven strategies that help businesses generate leads, increase conversions, and maximize ROI.
               </p>
-              <button>Get Started</button>
+              {/* <button>Get Started</button> */}
             </div>
 
             <div className="about-right">

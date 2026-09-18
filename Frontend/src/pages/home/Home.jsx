@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import client1 from '../../assets/client/client1.svg'
 import client2 from '../../assets/client/client2.png'
 import client3 from '../../assets/client/client3.png'
-import client4 from '../../assets/client/client4.jpg'
+import client4 from '../../assets/client/client4.png'
 import client5 from '../../assets/client/client5.png'
 // import clientcs from '../../assets/client/clientcs.jpg'
 import WhatsAppButton from '../../components/WhatsAppButton'
@@ -639,7 +639,7 @@ const Home = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    24, 1st Floor, Maple High Street<br />
+                                    Maple High Street,<br />
                                     Narmadapuram Road, Bhopal,<br /> Madhya Pradesh, India - 462026
                                 </a>
                             </div>
@@ -678,9 +678,14 @@ const Home = () => {
                     {/* GOOGLE MAP */}
                     <div className="map-container">
                         <iframe
-                            src="https://www.google.com/maps?q=Bhopal&output=embed"
-                            title="location"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.677600186757!2d77.45202607430697!3d23.181964110363214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c43e9131afdbd%3A0x33286b10ee89dc9c!2sMaple%20High%20Street!5e0!3m2!1sen!2sin!4v1789729232270!5m2!1sen!2sin"
+                            width="800"
+                            height="600"
+                            style={{ border: 0 }}
+                            allowFullScreen
                             loading="lazy"
+                            referrerPolicy="strict-origin-when-cross-origin"
+                            title="Technoegal Solutions Location"
                         ></iframe>
                     </div>
 

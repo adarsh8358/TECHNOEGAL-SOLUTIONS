@@ -81,7 +81,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                24, 1st Floor, Maple High Street<br />
+                Maple High Street,<br />
                 Narmadapuram Road, Bhopal,<br />
                 Madhya Pradesh, India - 462026
               </a>
